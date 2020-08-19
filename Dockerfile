@@ -5,4 +5,6 @@ WORKDIR /app
 
 COPY  ./ $WORKDIR
 
+RUN yarn && yarn dist
+
 ENTRYPOINT [ "node", "srv/server.js" ]
