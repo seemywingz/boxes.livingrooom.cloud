@@ -1,0 +1,35 @@
+{
+  "name": "Torch.Cloud",
+  "version": "0.1.30",
+  "description": "3Base 3d Application",
+  "scripts": {
+    "test": "echo \"PASS\" && exit 0",
+    "dev": "webpack-dev-server --mode development --content-base srv/",
+    "watch": "webpack --progress --colors --watch --mode development",
+    "dist": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:seemywingz/torch.cloud.git"
+  },
+  "author": "Kevin Jayne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seemywingz/3base/issues"
+  },
+  "homepage": "https://Torch.Cloud",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.1.0",
+    "imports-loader": "^1.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "3base": "^0.1.30"
+  },
+  "postinstall": "install-app-deps"
+}
