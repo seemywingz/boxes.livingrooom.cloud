@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"3base@^0.1.30":
-  version "0.1.30"
-  resolved "https://registry.yarnpkg.com/3base/-/3base-0.1.30.tgz#97402cb481e3fd7e050f600394ee0475766d5eef"
-  integrity sha512-dY2W05Q4Z2nDMQ0fYbySxEdRAvZZ+XUeU1lkAcWLllRu3H9DUYehiDzqz15rPVVv03NStfUVXYmtTeS4lPyTGg==
+"3base@^0.1.31":
+  version "0.1.31"
+  resolved "https://registry.yarnpkg.com/3base/-/3base-0.1.31.tgz#9de72f9d4170846c7c9a13cb7e401465902f94c3"
+  integrity sha512-p8Ti/mg9/8gWQDN8c0qjjjb9OG38s5yuK7AWBicfQLzi3qd+B4fAxK6p2EDHnw7GqZLWJm3Yp2huH6grcEYVhw==
   dependencies:
     ammo.js "^0.0.10"
     three "^0.119.1"
