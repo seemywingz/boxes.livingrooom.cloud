@@ -1,6 +1,6 @@
 {
-  "name": "Torch.Cloud",
-  "version": "0.1.30",
+  "name": "boxes.livingroom.cloud",
+  "version": "0.1.31",
   "description": "3Base 3d Application",
   "scripts": {
     "test": "echo \"PASS\" && exit 0",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:seemywingz/torch.cloud.git"
+    "url": "git+ssh://git@github.com:seemywingz/boxes.livingroom.cloud.git"
   },
   "author": "Kevin Jayne",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/seemywingz/3base/issues"
+    "url": "https://github.com/seemywingz/boxes.livingroom.cloud/issues"
   },
-  "homepage": "https://Torch.Cloud",
+  "homepage": "https://boxes.livingroom.cloud",
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
