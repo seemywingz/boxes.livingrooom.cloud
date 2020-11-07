@@ -1,0 +1,11 @@
+Model Information:
+* title:	Vivern. 3d printable.
+* source:	https://sketchfab.com/3d-models/vivern-3d-printable-038e6e165a344996a72d8e2651896e88
+* author:	ill_drakon (https://sketchfab.com/ill_drakon)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Vivern. 3d printable." (https://sketchfab.com/3d-models/vivern-3d-printable-038e6e165a344996a72d8e2651896e88) by ill_drakon (https://sketchfab.com/ill_drakon) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

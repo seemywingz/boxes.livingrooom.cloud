@@ -29,16 +29,25 @@ export default class Boxes extends tb.Scene {
         }
       }
     }
-    
-    let ballTexture = this.manager.loadTexture( 'assets/images/beachBall.jpg');
-    for (let index = 0; index < 25; index++) {
-      let ball = new tb.Ball(this, tb.Utils.randNum(-10,5), tb.Utils.randNum(0.5, 200), tb.Utils.randNum(-10,5), ballTexture, 1, 0.05);
-      ball.threeObject.shinyness = 100;
-      ball.body.setFriction(10);
-      ball.body.setRestitution(0.5);
-      ball.body.setDamping(0.05, 0.05);
-      ball.addToScene();
-    }
+
+    new tb.GLTFModel(this, -5, 0, -10, 'assets/models/guy', 1, 1224.69)
+    .then(dragon=>{
+      // dragon.initPhysics(1, new tb.AMMO.btBoxShape(new tb.AMMO.btVector3(1,0.5,0.45)));
+      // dragon.initBoundingBoxPhysics()
+      // dragon.initConcavePhysics()
+      dragon.playAnimation(1);
+      dragon.addToScene();
+    })
+
+    // let ballTexture = this.manager.loadTexture( 'assets/images/sky.jpg');
+    // for (let index = 0; index < 1000; index++) {
+    //   let ball = new tb.Ball(this, tb.Utils.randNum(-10,5), tb.Utils.randNum(0.5, 200), tb.Utils.randNum(-10,5), ballTexture, 0.5, 0.05);
+    //   ball.threeObject.shinyness = 100;
+    //   ball.body.setFriction(10);
+    //   ball.body.setRestitution(0.5);
+    //   ball.body.setDamping(0.05, 0.05);
+    //   ball.addToScene();
+    // }
      
     // this.manager.playAudio('./assets/audio/wind.wav', 0.5, true);
   }
@@ -54,10 +63,10 @@ export default class Boxes extends tb.Scene {
   }
 
   click(){
-    let spd = 50;
+    let spd = 100;
     let pos = this.camera.controls.position;
     let direction = this.camera.getDirection(0,0,-1);
-    let ball = new tb.Ball(this, pos.x,pos.y,pos.z, this.cannonBallTexture, 0.25, 1);
+    let ball = new tb.Ball(this, pos.x,pos.y,pos.z, this.cannonBallTexture, 1, 100);
     ball.body.setLinearVelocity(new tb.AMMO.btVector3(direction.x * spd, direction.y * spd, direction.z * spd));
     ball.addToScene();
   }
