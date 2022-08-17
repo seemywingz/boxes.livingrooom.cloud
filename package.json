@@ -1,6 +1,6 @@
 {
   "name": "boxes.livingroom.cloud",
-  "version": "0.1.31",
+  "version": "1.0.2",
   "description": "3Base 3d Application",
   "scripts": {
     "test": "echo \"PASS\" && exit 0",
